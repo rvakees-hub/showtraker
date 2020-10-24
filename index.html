@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ShowTracker</title>
+        <link rel="stylesheet" href="style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a href="#" class="navbar-brand">  <svg width="1em" height="1em" viewBox="0 0 16 16" style="margin-left: 5px; margin-bottom: 5px" class="bi bi-film" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0h8v6H4V1zm8 8H4v6h8V9zM1 1h2v2H1V1zm2 3H1v2h2V4zM1 7h2v2H1V7zm2 3H1v2h2v-2zm-2 3h2v2H1v-2zM15 1h-2v2h2V1zm-2 3h2v2h-2V4zm2 3h-2v2h2V7zm-2 3h2v2h-2v-2zm2 3h-2v2h2v-2z"/>
+          </svg>  Show<strong>Tracker</strong></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <div class="navbar-nav">
+                  <a href="index.html" class="nav-item nav-link active" style="color: black;"> <i class='fas fa-house-damage' style='font-size:24px'></i> Home</a>
+                  <a href="Add.html" class="nav-item nav-link" style="color: black;"> <i class='fas fa-folder-open' style='font-size:24px'></i> Add</a>
+                
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="navbar-nav">
+                  <a href="login.html" class="nav-item nav-link" style="color: black;"><i class='fas fa-sign-in-alt' style='font-size:24px'></i> Login</a>
+                  <a href="singup.html" class="nav-item nav-link" style="color: black;"><i class='fas fa-user' style='font-size:24px'></i> sign up</a>
+                  
+              </div>
+          </div>
+      </nav>
+  
+
+
+<section class="sec">
+  <div class="container">
+    <div class="row">
+    <div class="col-lg-12">
+     <ul class="text-center az">
+      <li id="0-9"><a>0-9</a></li>
+       <li id="a"><a >a</a></li>
+       <li id="b"><a>B</a></li>
+       <li id="c"><a>C</a></li>
+       <li id="d"><a>D</a></li>
+       <li id="e"><a>E</a></li>
+       <li id="f"><a>F</a></li>
+       <li id="g"><a>G</a></li>
+       <li id="h"><a>H</a></li>
+       <li id="i"><a>I</a></li>
+       <li id="j"><a>J</a></li>
+       <li id="k"><a>K</a></li>
+       <li><a>L</a></li>
+       <li><a>M</a></li>
+       <li><a>N</a></li>
+       <li><a>O</a></li>
+       <li><a>P</a></li>
+       <li><a>Q</a></li>
+       <li><a>R</a></li>
+       <li><a>S</a></li>
+       <li><a>T</a></li>
+       <li><a>U</a></li>
+       <li><a>V</a></li>
+       <li><a>W</a></li>
+       <li><a>X</a></li>
+       <li><a>Y</a></li>
+       <li><a>Z</a></li>
+     </ul>
+    
+     <ul class="text-center head">
+      <li class="active " data-rel=""><a href="">ALL</a></li>
+      <li><a id="action">action</a></li>
+      <li><a id="adventure">adventure</a></li>
+      <li><a id="children">children</a></li>
+      <li><a id="comedy">comedy</a></li>
+      <li><a id="crime">crime</a></li>
+      <li><a class="noFilm">documentry</a></li>
+      <li><a id="drama">drama</a></li>
+      <li><a class="noFilm">family</a></li>
+      <li><a class="noFilm">fantasy</a></li>
+      <li><a class="noFilm">food</a></li>
+      <li><a class="noFilm">home and garden</a></li>
+      <li><a id="horror">horror</a></li>
+      <li><a class="noFilm">mini seiries</a></li>
+      <li><a class="noFilm">mystery</a></li>
+      <li><a id="news">news</a></li>
+      <li><a id="reality">reality</a></li>
+      <li><a id="romance">romance</a></li>
+      <li><a id="sci-fi">sci-fi</a></li>
+      <li><a class="noFilm">sports</a></li>
+      <li><a class="noFilm">suspence</a></li>
+      <li><a class="noFilm">talk Show</a></li>
+      <li><a class="noFilm">thriller</a></li>
+      <li><a id="travel">travel</a></li>
+     </ul>
+
+    </div>
+    </div>
+  </div>
+  </section>
+
+    
+<section class="secti">
+  <div class="container can">
+    <div class="">
+      <h4 style="margin-left: 20px;margin-top: 20px;"><i class='fas fa-film' style='font: size 24px;color:red'></i> Top 12 Shows</h4>
+    <div class="row">
+   <div class="col-lg-3 action a">
+     <div class="card" >
+     <a href="./surface.html" > <img src="./Img/00b6cdef-6cde-404f-9bd8-95e080d0d6a8.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+     <div class="card-body">
+       <h4 class="card-title">Surface</h4>
+       <h6 class="card-text">Episodes:37</h6>
+     </div>
+     </div>
+   </div>
+
+
+   <div class="col-lg-3 news b">
+    <div class="card">
+    <a href="./juncle.html" > <img src="./Img/0f1d616b-8975-4c05-894b-f6b74d64971d.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">juncle</h4>
+      <h6 class="card-text">Episodes:75</h6>
+    </div>
+    </div>
+  </div>
+     
+  <div class="col-lg-3 romance  c">
+    <div class="card">
+    <a href="./STARWARS.html" > <img src="./Img/119cb58b-b04a-4bfe-88fa-85b57fc8bbb0.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">Starwars</h4>
+      <h6 class="card-text">Episodes:56</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 adventure d">
+    <div class="card">
+    <a href="./THE FARE.html" > <img src="./Img/1789bed8-3f3a-4a95-805b-3cae06ef1478.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">the fare</h4>
+      <h6 class="card-text">Episodes:45</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 horror e">
+    <div class="card">
+    <a href="./WHEELLMAN.html" > <img src="./Img/4af0e6d4-c031-4a82-b01e-e9b08a417880.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">wheellman</h4>
+      <h6 class="card-text">Episodes:92</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3  sports f">
+    <div class="card">
+    <a href="./BLACKWIDOW.html" > <img src="./Img/4b907847-8911-4237-913c-3ae923646ff7.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">blackwidow</h4>
+      <h6 class="card-text">Episodes:28</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 drama g">
+    <div class="card">
+    <a href="./LOIBAD.html" > <img src="./Img/53e946d5-d48c-473e-9668-450b4349ced0.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">loibad</h4>
+      <h6 class="card-text">Episodes:83</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 horror h">
+    <div class="card">
+    <a href=".////BLOODSHOT.html" > <img src="./Img/5efb3cd5-10de-41b8-b58f-451bef0514e4.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">bloodshot</h4>
+      <h6 class="card-text">Episodes:64</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 sci-fi 0-9">
+    <div class="card">
+    <a href="./SONIC.html" > <img src="./Img/6fc4629c-83ea-453c-ad2a-f08949ab2460.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">sonic</h4>
+      <h6 class="card-text">Episodes:59</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 children i">
+    <div class="card">
+    <a href="./THEGRAY.html" > <img src="./Img/7a7db1c4-90d5-466b-8570-a0bc65162c70.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">thegray</h4>
+      <h6 class="card-text">Episodes:49</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 travel j">
+    <div class="card">
+    <a href=".////IMMUNE.html" > <img src="./Img/7df585db-81cf-4f69-b57b-9ff41e3aa856.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">immune</h4>
+      <h6 class="card-text">Episodes:73</h6>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 reality k">
+    <div class="card">
+    <a href="./MUMMY.html" > <img src="./Img/d7549885-166a-4909-bd57-11e6869b1979.jpg" class="img-top" style="width: 253px; height: 400px;" alt=""> </a>
+    <div class="card-body">
+      <h4 class="card-title">mummy</h4>
+      <h6 class="card-text">Episodes:66</h6>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+  </section>
+
+
+  <section>
+    <!-- Footer -->
+<footer class="foot" style="background-color: gray;">
+
+  
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="margin-top: 15px;">Company name</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>© 2020 STAR. All Rights Reserved. HBO, Home Box Office and all related channel and programming logos are service marks of, and all related programming visuals and elements are the property of, Home Box Office, Inc. All rights reserved.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="margin-top: 15px;">Chanels</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a>HBO</a>
+        </p>
+        <p>
+          <a>Hotstar.</a>
+        </p>
+        <p>
+          <a>Popcornflix</a>
+        </p>
+        <p>
+          <a>Retrovision</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="margin-top: 15px;">GET THE APPS</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a>ISO</a>
+        </p>
+        <p>
+          <a>Android</a>
+        </p>
+        <p>
+          <a>Windows</a>
+        </p>
+        <p>
+          <a>Blakbary</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="margin-top: 15px;">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>Mullaitivu,Srilanka</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>rvakees23@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> +94770118418</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> +94770118418</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a>rvakees-hub</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+  </section>
+
+
+  <!-- Grid row -->
+
+    </body>
+    <!-- Js -->
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

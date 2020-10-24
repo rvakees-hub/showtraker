@@ -1,0 +1,112 @@
+
+.navbar-brand{
+    background-color: yellow;
+    color: black!important; 
+    padding: 5px;
+}
+
+
+ul.az>li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.az>li>a{
+    display: block;
+    color: black!important;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    transition: transform 2s;
+    padding: 3px;
+}
+ul.az>li>a:hover{
+    transform: scale(0.5);
+}
+ul.az{
+    margin-top: 15px;
+}
+ul.head>li>a{
+display: block;
+color: black;
+background-color:#ebe4e4;
+text-decoration: none;
+padding: 3px 10px;
+text-transform: capitalize;
+transition: transform 1s!important;
+border-radius: 5px;
+margin-top: 10px;
+}
+ul.head>li>a:hover{
+    transform: scale(0.5);
+}
+ul.head>li{
+    display: inline-block;
+}
+ul.head{
+    padding: 25px;
+}
+ul.head>li.active>a{
+    background-color: yellow;
+}
+ul.head>li.active>a:hover{
+    background-color: yellow;
+    color: black;
+    transform: scale(0.5);
+    
+}
+.can{
+    margin-left: 25px;
+    
+    background-color: white;
+    box-shadow: 0 0 18px black;
+}
+.card-title{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.card-text{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card{
+    margin-top: 15px;
+    display: flex;
+    border: none!important;
+    background-clip: border-box;
+    border-radius: .25rem;
+    flex-direction: column;
+    position: relative;
+    background-color: blanchedalmond;
+    transition: transform 1s!important;
+   
+}
+.img-top{
+    border-radius: 15px;
+    transition: transform 10s;
+}
+.img-top:hover{
+    transform: scale(0.5);
+}
+.navbar-brand{
+    background-color: yellow;
+    color: black!important; 
+    padding: 0px;
+   
+             }
+             .navbar{
+    padding: 0!important;
+}
+
+.sec{
+    margin-bottom: 5px;
+}
+
+body{
+    background-color: black;
+}
+.foot{
+    margin-top: 15px;
+}
